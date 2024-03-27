@@ -1,0 +1,149 @@
+.register_section {
+  height: 100%;
+  padding: 4rem 7rem;
+  @media only screen and (min-width: 400px) and (max-width: 500px) {
+    //500px
+    height: 100%;
+    padding: 2rem 1rem;
+  }
+  .form_center_div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media only screen and (min-width: 400px) and (max-width: 500px) {
+      //500px
+      display: block;
+    }
+    form {
+      width: 300px;
+      height: 500px;
+
+      .form_login_main_container {
+        width: 100%;
+        height: 100%;
+        background-color: #c8e4b2;
+        border-radius: 10px;
+        padding: 3rem 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+        @media only screen and (min-width: 400px) and (max-width: 500px) {
+          //500px
+          padding: 4rem 3rem;
+        }
+        .form_heading_div {
+          transform: translateX(10px);
+
+          width: 100%;
+          display: flex;
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 0.55rem;
+          h6 {
+            color: rgb(61, 61, 61);
+            margin: 0;
+            font-size: 1rem;
+          }
+          h5 {
+            color: black;
+            margin: 0;
+            font-size: 2rem;
+          }
+        }
+        .form_lable_div {
+          transform: translateX(10px);
+
+          width: 100%;
+          height: 100%;
+          gap: 2rem;
+          display: flex;
+          align-items: flex-start;
+          flex-direction: column;
+          div {
+            position: relative;
+            label {
+              box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+                rgba(0, 0, 0, 0.12) 0px -12px 30px,
+                rgba(0, 0, 0, 0.12) 0px 4px 6px,
+                rgba(0, 0, 0, 0.17) 0px 12px 13px,
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+              position: absolute;
+              text-align: center;
+              font-weight: 300;
+              top: -35%;
+              left: 5%;
+              color: rgb(255, 255, 255);
+              background-color: rgb(29, 29, 29);
+              padding: 2px 15px;
+              border-radius: 5px;
+            }
+            input {
+              border: 1px solid grey;
+              padding: 1rem 1rem;
+              width: 110%;
+              border-radius: 8px;
+              height: 20px;
+              font-size: 1rem;
+            }
+          }
+        }
+        .form_button_div {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          gap: 0.22rem;
+
+          button {
+            background-color: black;
+            color: white;
+            padding: 1rem 4rem;
+            border: none;
+            width: 94%;
+            font-size: 1rem;
+            font-weight: 500;
+            border-radius: 10px;
+          }
+          .form_or_div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h5 {
+              margin: 0;
+              color: black;
+            }
+          }
+          .google_button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.55rem;
+            img {
+              width: 20px;
+            }
+            h5 {
+              margin: 0;
+              font-size: 1rem;
+            }
+          }
+        }
+        .form_Login_hear_div {
+          p {
+            color: rgb(58, 58, 58);
+            a {
+              text-decoration: none;
+              font-weight: 500;
+              color: rgb(0, 0, 0);
+            }
+          }
+        }
+      }
+    }
+  }
+}

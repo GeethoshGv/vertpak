@@ -1,0 +1,111 @@
+header {
+  padding: 1rem 7rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  @media only screen and (min-width: 400px) and (max-width: 500px) {
+    //500px
+    padding: 1rem 1rem;
+    grid-template-columns: 1fr 1fr;
+  }
+  .nav_img_div {
+    padding-bottom: 1.2rem;
+    .logo_name {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #379237;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    @media only screen and (min-width: 400px) and (max-width: 500px) {
+      //500px
+      gap: 5rem;
+      background-color: #c8e4b2;
+      padding: 1rem 1.5rem;
+      border-radius: 0.55rem;
+      grid-column: span 2;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.2rem;
+      @media only screen and (min-width: 400px) and (max-width: 500px) {
+        //500px
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
+.nav_2 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  grid-column-start: 3;
+  grid-row-start: 1;
+  @media only screen and (min-width: 400px) and (max-width: 500px) {
+    //500px
+    gap: 0.65rem;
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+  }
+  .login_button {
+    width: 100px;
+    height: 45px;
+    background-color: #000000;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    img {
+      width: 25px;
+    }
+    h5 {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 400;
+    }
+  }
+  .logout_button {
+    width: 100px;
+    height: 45px;
+    background-color: #000000;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    img {
+      width: 25px;
+    }
+    h5 {
+      margin: 0;
+      font-size: 16.6px;
+      font-weight: 400;
+    }
+  }
+  @media only screen and (min-width: 400px) and (max-width: 500px) {
+    //500px
+    width: 100%;
+  }
+}

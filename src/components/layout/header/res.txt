@@ -1,0 +1,16 @@
+@media only screen and (min-width: 2000px) and (max-width: 2560px) {
+    padding: 0 11rem;
+  }
+
+  @media only screen and (min-width: 300px) and (max-width: 400px) {
+    //400px
+
+  }
+  @media only screen and (min-width: 400px) and (max-width: 500px) {
+    //500px
+   
+  }
+  @media only screen and (min-width: 500px) and (max-width: 900px) {
+    //ipad
+
+  }
